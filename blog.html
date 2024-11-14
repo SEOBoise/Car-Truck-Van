@@ -1,160 +1,1001 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="author" content="Sam Brenner" />
-        <title>car | Car Truck Van Resource</title>
-        <meta name="description"
-              content=""/>
-        <link rel="icon" href="" type="image/x-icon" />
+<html lang="en">
 
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Simple line icons-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+<head>
+    <meta charset="utf-8">
+    <title>Blog | Car Truck Van Resource</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="home/css/quill.core.css" rel="stylesheet" />
-        <link href="article/css/styles.css" rel="stylesheet" />
-          
-        <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62dc22846895ac00191ea9d1&product=inline-share-buttons" async="async"></script>
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
 
-          <style>
-          h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1{
-          }
-          h3 {
-          font-size: 24px !important;
-          }
-          p{
-          margin-bottom: 28px !important;
-          }
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet"> 
 
-        .bg-header {
-          --bs-bg-opacity: 1;
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-          background-image: linear-gradient(rgba(0, 0, 0, 0.6),#000000) !important;
-    }
-        .bg-footer {
-          --bs-bg-opacity: 1;
-         background-image: linear-gradient(#000000,#000000) !important;
-        }
-        .header-text-color{
-            color: #ffffff !important;
-        }
-        .footer-text-color{
-            color: #ffffff !important;
-        }
-         .footer-text-color .navbar-brand{
-        color: #ffffff !important;
-        }
-</style>
-    </head>
-    <body>
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-header">
-            <div class="container">
-                 <a style="color: inherit; text-decoration: inherit;" href="https://car-truck-van.com">
-                <span class="navbar-brand" ><img style="max-height:30px; height: 30px !important; display: none " src="" onerror="this.remove()"></span>
-                <span class="navbar-brand header-text-color">Car Truck Van</span>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>261 Hart Ridge Road, Saginaw, MI 48609</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-envelope text-primary me-2"></small>
+                    <small>sam@car-truck-van.com</small>
                 </div>
             </div>
-        </nav>
-        <header class="py-2 bg-dark bg-opacity-25 border-bottom mb-4" style="display: none">
-            <div class="container ql-editor" id="sitewide-header" >
-                  
-            </div>
-        </header>
+            
+        </div>
+    </div>
+    <!-- Topbar End -->
 
-        <!-- Page content-->
-        <div class="container mt-5">
-            <div class="row">
-                <!-- Blog entries-->
-                <div class="col-lg-12">
-                    <div class="content">
-                     <div class="col-lg-12 py-lg-2">
-                    <h3 class="font-weight-light">Car Truck Van: Latest Blog Posts</h3>
-                </div>
+
+    <!-- Navbar Start -->
+   <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="https://car-truck-van.com/" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img src="img/logo.webp" class="logo" />
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="https://car-truck-van.com/" class="nav-item nav-link">Home</a>
+                <a href="about.html" class="nav-item nav-link">About Car Truck Van</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Auto Types</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="car.html" class="dropdown-item">Car</a>
+                        <a href="truck.html" class="dropdown-item">Trucks</a>
+                        <a href="van.html" class="dropdown-item">Vans</a>
                     </div>
-
                 </div>
-                <div class="clearfix"></div>
-                <br>
-                <br>
-                
-                <!-- Side widgets-->
+				<a href="blog.html" class="nav-item nav-link active">Articles & Resources</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+           
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/carousel-bg-1.jpg);">
+        <div class="container-fluid page-header-inner py-5">
+            <div class="container text-center">
+                <h1 class="display-3 text-white mb-3 animated slideInDown">Blog</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center text-uppercase">
+                        <li class="breadcrumb-item"><a href="https://car-truck-van.com/">Home</a></li>
+                        <li class="breadcrumb-item text-white active" aria-current="page">Articles & Resources</li>
+                    </ol>
+                </nav>
             </div>
         </div>
+    </div>
+    <!-- Page Header End -->
 
-        <div class="py-5 bg-gray-200 text-muted">
-            <div class="container">
-                <div class="row">
-                      <div class="col-lg-8 mb-5 mb-lg-0">
-                       <div style=" display: inherit" class="fw-bold text-uppercase text-dark mb-3">
-                        <a href="terms.html">Terms of Use</a>
-                       </div>
 
-                        <div style=" display: inherit" class="fw-bold text-uppercase text-dark mb-3">
-                        <a href="privacy.html">Privacy Policy</a>
+
+    <!-- Fact Start -->
+    <div class="container-fluid  blog">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-16 col-lg-12 text-center wow fadeIn" data-wow-delay="0.1s">
+				 <h1 class="about_h2" style="text-align:left;">Articles & Resources</h1>
+				 
+				<div class="col-lg-12 order-1 order-lg-2">
+					<div class="col-lg-12 order-1 order-lg-2">
+					<div class="col-lg-4 left_align">
+					<div class="blog-post">
+					    <img class="img_main" src="img/what-are-the-typical-uses-for-a-car.webp" />
+						<h2>What are the typical uses for a car? </h2>
+						<p>Public transportation is a popular option for individuals looking to get around cities and urban areas efficiently and affordably. Buses, trains, trams, and subways...</p>
+						<a href="what-are-the-typical-uses-for-a-car.html" class="site-btn read-more">read more</a>
+					</div>
+					</div>
+					<div class="col-lg-4 left_align">
+					<div class="blog-post">
+					    <img class="img_main" src="img/what-are-the-typical-uses-for-a-car.webp" />
+						<h2>How do trucks differ from vans? </h2>
+						<p>When it comes to comparing the dimensions of different products or vehicles, size and capacity play a crucial role in determining their suitability for specific tasks...</p>
+						<a href="how-do-trucks-differ-from-vans.html" class="site-btn read-more">read more</a>
+					</div>
+					</div>
+					
+					<div class="col-lg-4 left_align">
+					<div class="blog-post">
+					    <img class="img_main" src="img/what-are-the-typical-uses-for-a-car.webp" />
+						<h2>What are the main differences between a car, truck, and van? </h2>
+						<p>Sedans, SUVs, and hatchbacks are some of the most common body types found in the automotive industry. Sedans are typically known for their sleek, low-profile design...</p>
+						<a href="what-are-the-main-differences-between-a-car-truck-and-van.html" class="site-btn read-more">read more</a>
+					</div>
+					</div>
+					
+					<div class="col-lg-4 left_align">
+					<div class="blog-post">
+					    <img class="img_main" src="img/Choosing the Right Vehicle for Your Needs.png" />
+						<h2>Choosing the Right Vehicle for Your Needs</h2>
+						<p>Determining the right vehicle for your needs entails a thoughtful assessment of your daily activities, hobbies, and family size. By exploring how you spend your time...</p>
+						<a href="choosing-the-right-vehicle-for-your-needs.html" class="site-btn read-more">read more</a>
+					</div>
+					</div>
+
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/Cost of Ownership_ Insurance, Maintenance, and Repairs.png" />
+                            <h2>Cost of Ownership: Insurance, Maintenance, and Repairs</h2>
+                            <p>One of the most important aspects of owning a vehicle is understanding the financial responsibilities that come along with it. From the moment you drive the car off the lot...</p>
+                            <a href="cost-of-ownership-insurance-maintenance-and-repairs.html" class="site-btn read-more">read more</a>
+                        </div>
+                        </div>
+					
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/Safety Features and Crash Test Ratings.png" />
+                            <h2>Safety Features and Crash Test Ratings</h2>
+                            <p>When it comes to vehicle protection, there are various measures in place to ensure your safety. One of the most significant advancements in this field is the implementation...</p>
+                            <a href="safety-features-and-crash-test-ratings.html" class="site-btn read-more">read more</a>
+                        </div>
                         </div>
 
-                    </div>
-                    <div class="col-lg-4">
-                       <h6 style=" display: inherit" class="text-uppercase text-dark mb-3">
-                        <a href="sitemap.html">Sitemap</a>
-                        </h6>
+                        <div class="col-lg-4 left_align">
+                            <div class="blog-post">
+                                <img class="img_main" src="img/Towing and Hauling Abilities.png" />
+                                <h2>Towing and Hauling Abilities</h2>
+                                <p>One of the key factors to consider when towing or hauling heavy loads is understanding the strengths of your vehicle's towing and cargo capacity. Every vehicle has a ...</p>
+                                <a href="towing-and-hauling-abilities.html" class="site-btn read-more">read more</a>
+                            </div>
+                            </div>
 
-                       <h6 style=" display: inherit" class="text-uppercase text-dark mb-3">
-                        <a href="contact.html">Contact Us!</a>
-                        </h6>
+                        <div class="col-lg-4 left_align">
+                            <div class="blog-post">
+                                <img class="img_main" src="img/Storage and Cargo Capacity.png" />
+                                <h2>Storage and Cargo Capacity</h2>
+                                <p>One of the key factors in maximizing space in your vehicle's interior is effective organization. By efficiently packing and arranging your cargo, you can make the most...</p>
+                                <a href="storage-and-cargo-capacity.html" class="site-btn read-more">read more</a>
+                            </div>
+                            </div>
 
+                        <div class="col-lg-4 left_align">
+                            <div class="blog-post">
+                                <img class="img_main" src="img/Interior Space and Comfort Features.png" />
+                                <h2>Interior Space and Comfort Features</h2>
+                                <p>When it comes to understanding the ample space inside a vehicle, it goes beyond just taking a quick glance at the car's exterior. The dimensions of a vehicle...</p>
+                                <a href="interior-space-and-comfort-features.html" class="site-btn read-more">read more</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 left_align">
+                            <div class="blog-post">
+                                <img class="img_main" src="img/Fuel Efficiency and Gas Mileage.png" />
+                                <h2>Fuel Efficiency and Gas Mileage</h2>
+                                <p>Fuel consumption is a complex scientific process that directly affects the efficiency of vehicles. At its core, fuel consumption refers to the amount of fuel...</p>
+                                <a href="fuel-efficiency-and-gas-mileage.html" class="site-btn read-more">read more</a>
+                            </div>
+                            </div>
+                        <div class="col-lg-4 left_align">
+                            <div class="blog-post">
+                                <img class="img_main" src="img/Vehicle Performance and Handling.png" />
+                                <h2>Vehicle Performance and Handling</h2>
+                                <p>Weight distribution plays a crucial role in the overall dynamics and handling of a vehicle. The distribution of weight affects various aspects such as stability...</p>
+                                <a href="vehicle-performance-and-handling.html" class="site-btn read-more">read more</a>
+                            </div>
+                            </div>
+
+                        <div class="col-lg-4 left_align">
+                            <div class="blog-post">
+                                <img class="img_main" src="img/Differences in vehicle Size and Capacity.png" />
+                                <h2>Differences in vehicle Size and Capacity</h2>
+                                <p>When it comes to choosing a vehicle, one of the first decisions you'll need to make is whether you prefer a compact or full-size model. Understanding the...</p>
+                                <a href="differences-in-vehicle-size-and-capacity.html" class="site-btn read-more">read more</a>
+                            </div>
+                            </div>
+
+                        <div class="col-lg-4 left_align">
+                            <div class="blog-post">
+                                <img class="img_main" src="img/Types of Vehicles_ Car, Truck, and Van.png" />
+                                <h2>Types of Vehicles: Car, Truck, and Van</h2>
+                                <p>In the early days of personal transportation, humans relied on their own two feet to get from one place to another. Walking was not only a means of transportation...</p>
+                                <a href="types-of-vehicles-car-truck-and-van.html" class="site-btn read-more">read more</a>
+                            </div>
+                            </div>
+
+                        <div class="col-lg-4 left_align">
+                            <div class="blog-post">
+                                <img class="img_main" src="img/Future Trends in Vehicle Fleets.png" />
+                                <h2>Future Trends in Vehicle Fleets</h2>
+                                <p>Electric vehicles (EVs) have become a prominent contender in the quest for sustainable transportation. With increasing environmental concerns and the need for reduced...</p>
+                                <a href="future-trends-in-vehicle-fleets.html" class="site-btn read-more">read more</a>
+                            </div>
+                            </div>
+
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/Vehicle Fleet Optimization and Cost Control.png" />
+                            <h2>Vehicle Fleet Optimization and Cost Control</h2>
+                            <p>Efficient fleet management systems play a vital role in organizations that rely on a fleet of vehicles to carry out their operations. These systems not only help...</p>
+                            <a href="vehicle-fleet-optimization-and-cost-control.html" class="site-btn read-more">read more</a>
+                        </div>
+                        </div>
+
+                        <div class="col-lg-4 left_align">
+                            <div class="blog-post">
+                                <img class="img_main" src="img/Vehicle Tracking and Telematics.png" />
+                                <h2>Vehicle Tracking and Telematics</h2>
+                                <p>Vehicle monitoring technology has come a long way from its humble beginnings in basic diagnostics. In the past, vehicle diagnostics were limited to simple error...</p>
+                                <a href="vehicle-tracking-and-telematics.html" class="site-btn read-more">read more</a>
+                            </div>
+                        =</div>
+                        <div class="col-lg-4 left_align">
+                            <div class="blog-post">
+                            <img class="img_main" src="img/Auto and Vehicle Fleet Fuel Management and Efficiency.png" />
+                            <h2>Auto and Vehicle Fleet Fuel Management and Efficiency</h2>
+                            <p>Fuel efficiency is a crucial aspect of fleet operations that cannot be overlooked. With the rising cost of fuel and increasing environmental concerns, fleet operators...</p>
+                            <a href="auto-and-vehicle-fleet-fuel-management-and-efficiency.html" class="site-btn read-more">read more</a>
+                        </div>
+                        </div>
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/Auto Maintenance and Repairs.png" />
+                            <h2>Auto Maintenance and Repairs</h2>
+                            <p>Regular vehicle check-ups are crucial for maintaining the overall performance and longevity of your vehicle. By ensuring that your car is regularly inspected by a...</p>
+                            <a href="auto-maintenance-and-repairs.html" class="site-btn read-more">read more</a>
+                        </div>
                     </div>
+                    
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/Planning and Acquisition of Fleet Vehicles.png" />
+                            <h2>Planning and Acquisition of Fleet Vehicles</h2>
+                            <p>In today's fast-paced business world, maintaining a fleet of vehicles has become an essential aspect of many organizations' operations. The reasons for investing in...</p>
+                            <a href="planning-and-acquisition-of-fleet-vehicles.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/Benefits of Having a Business Vehicle Fleet.png" />
+                            <h2>Benefits of Having a Business Vehicle Fleet</h2>
+                            <p>Having a dedicated business vehicle fleet can greatly contribute to increased efficiency and productivity within an organization. By having a fleet of vehicles at...</p>
+                            <a href="benefits-of-having-a-business-vehicle-fleet.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/Types of Vehicle Fleets.png" />
+                            <h2>Types of Vehicle Fleets</h2>
+                            <p>To effectively understand the purpose and composition of vehicle fleets, one must first recognize their primary function: transportation. Vehicle fleets serve as...</p>
+                            <a href="types-of-vehicle-fleets.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/What is the best car insurance company.png" />
+                            <h2>What is the best car insurance company?</h2>
+                            <p>When it comes to evaluating car insurance companies, conducting a comprehensive review is essential. With countless options available in the market, it can be ove...</p>
+                            <a href="what-is-the-best-car-insurance-company.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/Which car brand offers the best warranty.png" />
+                            <h2>Which car brand offers the best warranty?</h2>
+                            <p>One of the most important factors to consider when evaluating the value of a car warranty is the length of coverage provided by various car brands. Each brand offers...</p>
+                            <a href="which-car-brand-offers-the-best-warranty.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/What are the highest-rated compact cars.png" />
+                            <h2>What are the highest-rated compact cars?</h2>
+                            <p>In today's world where environmental consciousness and fuel economy have become increasingly important, compact cars with top-rated fuel efficiency are highly sought after...</p>
+                            <a href="what-are-the-highest-rated-compact-cars.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/Are there any electric car models that have good range.png" />
+                            <h2>Are there any electric car models that have good range?</h2>
+                            <p>The Nissan Leaf Plus is an ideal electric vehicle for those seeking a reliable option for everyday commuting. With its impressive range of up to 226 miles, this car elimin...</p>
+                            <a href="are-there-any-electric-car-models-that-have-good-range.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/What are some popular SUV models and brands.png" />
+                            <h2>What are some popular SUV models and brands?</h2>
+                            <p>When it comes to luxury SUV brands, there are a few names that consistently rise to the top. These brands have established a reputation for crafting vehicles that exude...</p>
+                            <a href="what-are-some-popular-suv-models-and-brands.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/Which car brands offer luxury vehicles.png" />
+                            <h2>Which car brands offer luxury vehicles?</h2>
+                            <p>Mercedes-Benz has long been recognized as the epitome of luxury in the automotive industry. With their sleek designs, impeccable craftsmanship, and attention to detail...</p>
+                            <a href="which-car-brands-offer-luxury-vehicles.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/Are there any eco-friendly car models and brands.png" />
+                            <h2>Are there any eco-friendly car models and brands?</h2>
+                            <p>Eco-friendly cars have become more than just a trend; they are crucial for the future of our planet. As concerns about climate change and air pollution continue to rise...</p>
+                            <a href="are-there-any-eco-friendly-car-models-and-brands.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/What are the best sporty car models on the market.png" />
+                            <h2>What are the best sporty car models on the market?</h2>
+                            <p>When it comes to speed, there are some sporty cars that simply dominate the market. These cars are built to race through the highways and leave other vehicles in the dust...</p>
+                            <a href="what-are-the-best-sporty-car-models-on-the-market.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/Which car brands are known for their reliability.png" />
+                            <h2>Which car brands are known for their reliability?</h2>
+                            <p>Toyota has long been known for its legacy of dependability. From the iconic Corolla to the rugged Tacoma, Toyota vehicles have consistently proven their reliability time and...</p>
+                            <a href="which-car-brands-are-known-for-their-reliability.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/What is the most affordable car model available.png" />
+                            <h2>What is the most affordable car model available?</h2>
+                            <p>One of the most important factors to consider when buying a car is the budget. Not everyone can afford to splurge on a luxury vehicle, but that doesn't mean you have to settle...</p>
+                            <a href="which-car-brands-are-known-for-their-reliability.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/What are the top car models and brands.png" />
+                            <h2>What are the top car models and brands?</h2>
+                            <p>Car enthusiasts and buyers are constantly on the lookout for the top car models and brands that are dominating the market. In recent years, two prominent names that have...</p>
+                            <a href="what-are-the-top-car-models-and-brands.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/what-are-the-different-types-of-motorcycles-available.webp" />
+                            <h2>What are the different types of motorcycles available?</h2>
+                            <p>Cruisers are the epitome of style and freedom on the open road. With their comfortable seating positions, wide handlebars, and low-slung frames, these motorcycles exude a...</p>
+                            <a href="what-are-the-different-types-of-motorcycles-available.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+					
+					<!-- blog new><--!>
+					<div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/can-i-customize-my-motorcycle.webp" />
+                            <h2>Can I customize my motorcycle?</h2>
+                            <p>Upgrading your motorcycle's brakes is a crucial step in ensuring both your safety and the overall performance of your ride. When it comes to stopping power, having a reliab...</p>
+                            <a href="can-i-customize-my-motorcycle.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/what-are-some-common-motorcycle-repairs-and-how-do-i-fix-them.webp" />
+                            <h2>What are some common motorcycle repairs and how do I fix them?</h2>
+                            <p>Regular maintenance is essential for keeping your motorcycle in peak condition and ensuring your safety on the road. One of the most important aspects of basic motorcycle ...</p>
+                            <a href="what-are-some-common-motorcycle-repairs-and-how-do-i-fix-them.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/how-can-i-increase-the-performance-of-my-motorcycle.webp" />
+                            <h2>How can I increase the performance of my motorcycle?</h2>
+                            <p>Motorcycle enthusiasts are always on the lookout for ways to enhance their bike's performance. Whether you are a beginner or a seasoned rider, understanding the basics...</p>
+                            <a href="how-can-i-increase-the-performance-of-my-motorcycle.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/are-there-any-upcoming-motorcycle-events-or-shows.webp" />
+                            <h2>Are there any upcoming motorcycle events or shows?</h2>
+                            <p>Looking to fuel your passion for motorcycles? Look no further than the upcoming events and shows that motorcycle enthusiasts simply can't afford to miss. With a wide...</p>
+                            <a href="are-there-any-upcoming-motorcycle-events-or-shows.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/what-safety-gear-do-i-need-for-riding-a-motorcycle.webp" />
+                            <h2>What safety gear do I need for riding a motorcycle?</h2>
+                            <p>Motorcycle riding is an exhilarating experience that offers a sense of freedom and adventure. However, it is crucial to prioritize safety while on the road. The impor...</p>
+                            <a href="what-safety-gear-do-i-need-for-riding-a-motorcycle.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/how-do-i-maintain-a-motorcycle.webp" />
+                            <h2>How do I maintain a motorcycle?</h2>
+                            <p>Motorcycle maintenance is an essential aspect of ensuring optimal performance and longevity of your bike. By understanding the basics, you can save yourself from potent...</p>
+                            <a href="how-do-i-maintain-a-motorcycle.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/what-are-some-beginner-friendly-motorcycles.webp" />
+                            <h2>What are some beginner-friendly motorcycles?</h2>
+                            <p>For new riders looking to get started in the world of motorcycles, finding a lightweight and nimble option is key. These motorcycles are designed to be easy to handle, making...</p>
+                            <a href="what-are-some-beginner-friendly-motorcycles.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/how-much-does-a-motorcycle-cost-on-average.webp" />
+                            <h2>How much does a motorcycle cost on average?</h2>
+                            <p>When it comes to determining the value of a motorcycle, there are several factors to consider. One of the most significant factors is the condition of the motorcycle. A well-main...</p>
+                            <a href="how-much-does-a-motorcycle-cost-on-average.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/what-are-the-top-motorcycle-brands.webp" />
+                            <h2>What are the top motorcycle brands?</h2>
+                            <p>Harley-Davidson motorcycles have long been synonymous with the American spirit of freedom, individuality, and rebellion on the open road. With a rich history dating back to 1903, the ...</p>
+                            <a href="what-are-the-top-motorcycle-brands.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 left_align">
+                        <div class="blog-post">
+                            <img class="img_main" src="img/green-cars-for-the-future-of-fuel-efficiency.webp" />
+                            <h2>Green Cars for the Future of Fuel Efficiency</h2>
+                            <p>It is undeniable that fuel efficiency plays a crucial role in the automotive industry today. With the growing concerns about climate change and the need to reduce carbon emissions, automa...</p>
+                            <a href="green-cars-for-the-future-of-fuel-efficiency.html" class="site-btn read-more">read more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/gas-cards-for-business-vehicle-fleets.webp" />
+                        <h2>Gas Cards for Business Vehicle Fleets</h2>
+                        <p>Efficient fuel management is essential for business vehicle fleets to ensure the smooth operation and sustainability of their operations. Fuel costs can often be one of the largest expenses f...</p>
+                        <a href="gas-cards-for-business-vehicle-fleets.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/best-fuel-card-for-vehicle-fleets.webp" />
+                        <h2>Best Fuel Card For Vehicle Fleets</h2>
+                        <p>Fuel cards have become an indispensable asset for businesses with vehicle fleets, offering a wide range of benefits that contribute to their operational efficiency. One significant advantage of u...</p>
+                        <a href="best-fuel-card-for-vehicle-fleets.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/hiring-a-car-accident-lawyer.webp" />
+                        <h2>Hiring A Car Accident Lawyer</h2>
+                        <p>If you have been involved in a car accident, seeking legal representation is of utmost importance. Dealing with the aftermath of a car accident can be incredibly overwhelming and confusing, especia....</p>
+                        <a href="hiring-a-car-accident-lawyer.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/how-comfortable-are-the-seats-in-vans-for-long-drives.webp" />
+                        <h2>How comfortable are the seats in vans for long drives?</h2>
+                        <p>When it comes to car seats, dimensions and ergonomics play a crucial role in ensuring adequate space and support for the occupants. The dimensions refer to the size of the seat, including its width...</p>
+                        <a href="how-comfortable-are-the-seats-in-vans-for-long-drives.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/what-safety-features-do-vans-typically-have.webp" />
+                        <h2>What safety features do vans typically have?</h2>
+                        <p>Stability control is a crucial safety feature that is designed to enhance the overall stability and handling of vans. These systems work by continuously monitoring the vehicle's movements and making aut...</p>
+                        <a href="what-safety-features-do-vans-typically-have.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/are-there-hybrid-or-electric-van-options-available.webp" />
+                        <h2>Are there hybrid or electric van options available?</h2>
+                        <p>In recent years, there has been a notable shift in the automotive industry towards eco-friendly vans, particularly hybrid and electric options. With increasing concerns about climate change and the overal...</p>
+                        <a href="are-there-hybrid-or-electric-van-options-available.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/are-there-vans-suitable-for-off-road-adventures-or-camping.webp" />
+                        <h2>Are there vans suitable for off-road adventures or camping?</h2>
+                        <p>Vans built for adventure are designed to handle off-road terrains, making them the perfect choice for those seeking adrenaline-fueled expeditions. These vehicles are equipped with powerful engines and stur...</p>
+                        <a href="are-there-vans-suitable-for-off-road-adventures-or-camping.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/which-van-model-offers-the-most-cargo-space.webp" />
+                        <h2>Which van model offers the most cargo space?</h2>
+                        <p>The cargo space in a van plays a crucial role in various industries and sectors. Whether it is for transporting goods, delivering packages, or carrying equipment, having ample cargo space in a van is essential...</p>
+                        <a href="which-van-model-offers-the-most-cargo-space.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/what-is-the-fuel-efficiency-of-vans-compared-to-other-vehicles.webp" />
+                        <h2>What is the fuel efficiency of vans compared to other vehicles?</h2>
+                        <p>Vans are commonly used for various purposes, ranging from commercial transportation to personal use. Understanding the fuel efficiency of vans is crucial in making informed choices when it comes to vehicle sele...</p>
+                        <a href="what-is-the-fuel-efficiency-of-vans-compared-to-other-vehicles.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/what-are-the-different-types-of-vans-available.webp" />
+                        <h2>What are the different types of vans available?</h2>
+                        <p>Compact vans are the perfect solution for those who need a versatile and efficient mode of transportation. These small vehicles offer a surprising amount of space, making them ideal for both personal use and prof...</p>
+                        <a href="what-are-the-different-types-of-vans-available.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/how-do-trucks-compare-to-suvs-in-terms-of-versatility-and-capability.webp" />
+                        <h2>How do trucks compare to SUVs in terms of versatility and capability?</h2>
+                        <p>Trucks and SUVs come in a wide range of sizes and dimensions, and these factors play a significant role in determining their versatility and capability in various scenarios. The larger size of trucks, with their ...</p>
+                        <a href="how-do-trucks-compare-to-suvs-in-terms-of-versatility-and-capability.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/what-are-the-pros-and-cons-of-buying-a-used-truck.webp" />
+                        <h2>What are the pros and cons of buying a used truck?</h2>
+                        <p>Insurance costs for used trucks can be a concern for potential buyers. While it is generally true that insurance rates for used trucks are lower compared to newer vehicles, there are certain factors that can res...</p>
+                        <a href="what-are-the-pros-and-cons-of-buying-a-used-truck.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/can-i-tow-a-trailer-with-a-compact-truck.webp" />
+                        <h2>Can I tow a trailer with a compact truck?</h2>
+                        <p>Compact trucks, also known as midsize trucks, have become increasingly popular in recent years due to their versatility and practicality. These smaller-sized trucks offer a great balance between fuel efficiency and...</p>
+                        <a href="can-i-tow-a-trailer-with-a-compact-truck.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/what-safety-features-should-i-look-for-in-a-truck.webp" />
+                        <h2>What safety features should I look for in a truck?</h2>
+                        <p>When it comes to ensuring your safety on the road, advanced braking systems are a feature you should prioritize when looking for a truck. With antilock brake systems (ABS) and electronic brake-force distribution...</p>
+                        <a href="what-safety-features-should-i-look-for-in-a-truck.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/are-there-any-fuel-efficient-trucks-available.webp" />
+                        <h2>Are there any fuel-efficient trucks available?</h2>
+                        <p>The steady increase in the demand for fuel-efficient trucks can be attributed to various factors. One of the main reasons is the rising awareness about the impact of greenhouse gas emissions on the environment...</p>
+                        <a href="are-there-any-fuel-efficient-trucks-available.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/what-maintenance-tasks-should-i-perform-regularly-on-my-truck.webp" />
+                        <h2>What maintenance tasks should I perform regularly on my truck?</h2>
+                        <p>One of the key aspects of maintaining any vehicle is being able to identify signs of wear and tear. By keeping a keen eye out for these indicators, you can catch potential problems before they escalate into ma...</p>
+                        <a href="what-maintenance-tasks-should-i-perform-regularly-on-my-truck.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/how-do-i-choose-the-right-size-truck-for-my-needs.webp" />
+                        <h2>How do I choose the right size truck for my needs?</h2>
+                        <p>When it comes to choosing a truck for your cargo needs, one of the most important factors to consider is its payload capacity. This refers to the maximum weight that the truck can carry, including the weight of the...</p>
+                        <a href="how-do-i-choose-the-right-size-truck-for-my-needs.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/what-are-the-best-truck-brands.webp" />
+                        <h2>What are the best truck brands?</h2>
+                        <p>When it comes to top-performing truck brands, the industry has no shortage of powerhouses. These giants dominate the road with their impressive performance, unmatched durability, and exceptional towing and hauling...</p>
+                        <a href="what-are-the-best-truck-brands.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/how-much-does-a-new-truck-cost-on-average.webp" />
+                        <h2>How much does a new truck cost on average?</h2>
+                        <p>When it comes to purchasing a new truck, one of the most important factors to consider is the brand and model. Different brands and models can have a significant impact on the overall cost of the truck. The brand i...</p>
+                        <a href="how-much-does-a-new-truck-cost-on-average.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/what-are-the-top-rated-trucks-of-2023.webp" />
+                        <h2>What are the top-rated trucks of 2023?</h2>
+                        <p>In today's fast-paced world, innovation and technology have become essential components for any top-rated truck. Truck enthusiasts seek out vehicles that not only provide exceptional performance, but also offer cut...</p>
+                        <a href="what-are-the-top-rated-trucks-of-2023.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/safety-considerations-for-truck-owners.webp" />
+                        <h2>Safety Considerations for Truck Owners</h2>
+                        <p>Regular vehicle maintenance is vital for keeping your car running smoothly and ensuring the safety of both the driver and passengers. Neglecting regular maintenance can lead to costly repairs down the line and incr...</p>
+                        <a href="safety-considerations-for-truck-owners.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/buying-or-leasing-a-truck.webp" />
+                        <h2>Buying or Leasing a Truck</h2>
+                        <p>Purchasing a truck comes with its fair share of advantages and disadvantages. On one hand, owning a truck provides you with a sense of freedom and independence. You have full control over the vehicle, allowing you to...</p>
+                        <a href="buying-or-leasing-a-truck.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/truck-maintenance-and-upkeep.webp" />
+                        <h2>Truck Maintenance and Upkeep</h2>
+                        <p>One of the most critical aspects of maintaining the longevity of your vehicle is regular inspections. These inspections serve as a proactive measure to identify and address any potential issues before they escalate into...</p>
+                        <a href="truck-maintenance-and-upkeep.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/truck-and-suv-fuel-efficiency-and-performance.webp" />
+                        <h2>Truck and SUV Fuel Efficiency and Performance</h2>
+                        <p>The weight of a vehicle plays a significant role in its fuel consumption. Generally, heavier vehicles tend to consume more fuel than lighter ones. This is because a heavy vehicle requires more energy to move, causing the engine...</p>
+                        <a href="truck-and-suv-fuel-efficiency-and-performance.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/different-truck-sizes-and-classes.webp" />
+                        <h2>Different Truck Sizes and Classes</h2>
+                        <p>Versatility is a key characteristic of light-duty trucks, making them an excellent choice for various purposes. These smaller trucks offer flexibility and maneuverability, making them well-suited for urban environments and ...</p>
+                        <a href="different-truck-sizes-and-classes.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/truck-anatomy-understanding-the-parts.webp" />
+                        <h2>Truck Anatomy: Understanding the Parts</h2>
+                        <p>When it comes to trucks, the engine is undeniably the heart of the vehicle. It is the powerhouse that generates the necessary energy to propel the truck forward, conquering miles of road with a relentless determination...</p>
+                        <a href="truck-anatomy-understanding-the-parts.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/types-of-trucks.webp" />
+                        <h2>Types of Trucks</h2>
+                        <p>Pickup trucks are a practical and popular choice for everyday transportation needs. With their versatile nature, these vehicles can effortlessly navigate both urban streets and off-road terrains. The robust engine power...</p>
+                        <a href="types-of-trucks.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/future-trends-in-car-technology.webp" />
+                        <h2>Future Trends in Car Technology</h2>
+                        <p>With the increasing concern for environmental sustainability, the automotive industry has witnessed a significant shift towards electrification. The move towards electric vehicles (EVs) is driven by the quest for cleaner...</p>
+                        <a href="future-trends-in-car-technology.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/choosing-the-right-car-for-your-needs.webp" />
+                        <h2>Choosing the Right Car for Your Needs</h2>
+                        <p>When it comes to choosing a new vehicle, it is important to carefully consider your lifestyle and needs. Your vehicle should be a reflection of your personality and cater to your unique requirements. Take into account...</p>
+                        <a href="choosing-the-right-car-for-your-needs.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/car-safety-features-and-technologies.webp" />
+                        <h2>Car Safety Features and Technologies</h2>
+                        <p>Over the years, vehicle safety has undergone a remarkable evolution, transforming from the basic seat belts to the advanced driver assistance systems that we see today. As technology has advanced, so too has our under...</p>
+                        <a href="car-safety-features-and-technologies.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/car-maintenance-tips-and-schedule.webp" />
+                        <h2>Car Maintenance Tips and Schedule</h2>
+                        <p>Regular maintenance plays a vital role in keeping your vehicle performing at its best and prolonging its lifespan. Neglecting maintenance tasks can lead to mechanical issues, decreased fuel efficiency, and even safety...</p>
+                        <a href="car-maintenance-tips-and-schedule.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/car-transmission-systems-manual-vs-automatic.webp" />
+                        <h2>Car Transmission Systems: Manual vs Automatic</h2>
+                        <p>In today's modern world, the evolution of vehicle transmissions has played a significant role in shaping the way we drive and operate our vehicles. Gone are the days of rudimentary and simplistic transmission systems...</p>
+                        <a href="car-transmission-systems-manual-vs-automatic.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/automobile-fuel-options-gasoline-diesel-electric.webp" />
+                        <h2>Automobile Fuel Options: Gasoline, Diesel, Electric</h2>
+                        <p>Over the past century, the automotive industry has experienced a remarkable journey in the evolution of power sources for vehicles. From the early days of steam-powered vehicles to the present-day advancements in...</p>
+                        <a href="automobile-fuel-options-gasoline-diesel-electric.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/vehicle-engine-types-and-performance.webp" />
+                        <h2>Vehicle Engine Types and Performance</h2>
+                        <p>Internal Combustion Engines (ICEs) are one of the most common types of vehicle engines. They are powered by the combustion of a fuel-air mixture inside the engine's cylinders. This combustion generates high-pressure...</p>
+                        <a href="vehicle-engine-types-and-performance.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/car-anatomy-and-components.webp" />
+                        <h2>Car Anatomy and Components</h2>
+                        <p>When it comes to automotive technology, the engine is truly the heart of the machine. It is the powerhouse that drives our vehicles forward, propelling us on our journeys. The engine is a complex system that converts...</p>
+                        <a href="car-anatomy-and-components.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/types-of-cars-sedans-suvs-trucks-etc.webp" />
+                        <h2>Types of Cars: Sedans, SUVs, Trucks, etc.</h2>
+                        <p>Automobiles have come a long way since their humble beginnings in the late 19th century. Today, we are surrounded by an extensive range of vehicle categories that cater to various needs and preferences. Each category ...</p>
+                        <a href="types-of-cars-sedans-suvs-trucks-etc.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/history-and-evolution-of-cars.webp" />
+                        <h2>History and Evolution of Cars</h2>
+                        <p>The birth of automobiles marked a monumental shift in transportation and sparked a revolution that would shape the world as we know it. It all began with the invention of the steam-powered vehicle by French engineer...</p>
+                        <a href="history-and-evolution-of-cars.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/average-prices-of-cars-trucks-and-vans.webp" />
+                        <h2>Average prices of cars, trucks, and vans</h2>
+                        <p>When it comes to purchasing a vehicle, understanding the market value is crucial in determining the costs of cars, trucks, and vans. Market value refers to the current price at which a vehicle can be bought or sold in...</p>
+                        <a href="average-prices-of-cars-trucks-and-vans.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/safety-features-in-modern-vehicles.webp" />
+                        <h2>Safety features in modern vehicles</h2>
+                        <p>In the early days of automobile manufacturing, vehicle safety was often an afterthought. Cars lacked basic safety features like seatbelts, airbags, and even sturdy frames. Many accidents resulted in serious injuries and...</p>
+                        <a href="safety-features-in-modern-vehicles.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/fuel-efficiency-of-cars-trucks-and-vans.webp" />
+                        <h2>Fuel efficiency of cars, trucks, and vans</h2>
+                        <p>Vehicle efficiency plays a crucial role in determining the environmental impact of transportation. With the increasing global concern about climate change and the need to reduce greenhouse gas emissions, understanding the...</p>
+                        <a href="fuel-efficiency-of-cars-trucks-and-vans.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>  
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/van-options-for-families.webp" />
+                        <h2>Van options for families</h2>
+                        <p>When it comes to selecting a van for your family, spaciousness and comfort are top priorities. Fortunately, there are plenty of vans in the market that offer ample seating and legroom for the entire family. From minivans...</p>
+                        <a href="van-options-for-families.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>  
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/popular-truck-brands-and-models.webp" />
+                        <h2>Popular truck brands and models</h2>
+                        <p>Over the years, trucks have undergone a remarkable evolution, transforming from basic workhorses to highly sought-after haulers. Today, these powerful machines are not only functional but also stylish and technologically...</p>
+                        <a href="popular-truck-brands-and-models.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>  
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/top-rated-car-models.webp" />
+                        <h2>Top-rated car models</h2>
+                        <p>As the year comes to a close, it's time to take a look at the most sought-after car models that have captured the attention of car enthusiasts and buyers alike. These vehicles have managed to create a buzz in the industry...</p>
+                        <a href="top-rated-car-models.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div> 
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/benefits-of-owning-a-van.webp" />
+                        <h2>Benefits of owning a van</h2>
+                        <p>A van is a vehicle that offers limitless possibilities, catering to a wide range of needs and preferences. Whether you are a small business owner in need of a reliable transportation solution or an outdoor enthusiast...</p>
+                        <a href="benefits-of-owning-a-van.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div> 
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/advantages-of-owning-a-truck.webp" />
+                        <h2>Advantages of owning a truck</h2>
+                        <p>Owning a truck opens up a world of possibilities, providing a level of versatility and utility that few other vehicles can match. Whether you need to haul heavy equipment for work or embark on an exhilarating off-...</p>
+                        <a href="advantages-of-owning-a-truck.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div> 
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/pros-and-cons-of-owning-a-car.webp" />
+                        <h2>Pros and cons of owning a car</h2>
+                        <p>Cars can be a costly investment, especially for those who are on a tight budget. From fuel costs to insurance premiums, maintenance fees, and parking expenses, the financial burden of owning a car can quickly accumulate...</p>
+                        <a href="pros-and-cons-of-owning-a-car.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div> 
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/differences-between-cars-trucks-and-vans.webp" />
+                        <h2>Differences between cars, trucks, and vans</h2>
+                        <p>Vehicle classifications are crucial in helping us understand the distinctions between different types of vehicles. These classifications serve as a guide for consumers, enabling them to make informed choices based on...</p>
+                        <a href="differences-between-cars-trucks-and-vans.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/are-trucks-and-vans-more-expensive-to-maintain-than-cars.webp" />
+                        <h2>Are trucks and vans more expensive to maintain than cars?</h2>
+                        <p>Trucks and vans are known for their durability and strength, but they come with a heftier price tag when it comes to maintenance expenses compared to cars. The larger size and ability to carry heavy loads are some of...</p>
+                        <a href="are-trucks-and-vans-more-expensive-to-maintain-than-cars.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/do-cars-generally-have-better-fuel-efficiency-compared-to-trucks-and-vans.webp" />
+                        <h2>Do cars generally have better fuel efficiency compared to trucks and vans?</h2>
+                        <p>Fuel efficiency in vehicles is influenced by a variety of factors, each playing a significant role in determining how efficiently a vehicle uses fuel. One of the key factors is the size and weight of the vehicle...</p>
+                        <a href="do-cars-generally-have-better-fuel-efficiency-compared-to-trucks-and-vans.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/are-trucks-larger-in-size-compared-to-vans.webp" />
+                        <h2>Are trucks larger in size compared to vans?</h2>
+                        <p>For those in need of a vehicle with ample space and versatility, trucks and vans prove to be worthy contenders. Understanding the dimensions of these vehicles is crucial to make an informed decision. Trucks, with...</p>
+                        <a href="are-trucks-larger-in-size-compared-to-vans.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/do-vans-have-more-cargo-space-than-trucks.webp" />
+                        <h2>Do vans have more cargo space than trucks?</h2>
+                        <p>When it comes to comparing the cargo capacity of vans and trucks, one cannot simply make a blanket statement that one is more spacious than the other. The truth is that the cargo capacity of vans and trucks can vary...</p>
+                        <a href="do-vans-have-more-cargo-space-than-trucks.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/what-are-the-towing-capacities-of-trucks-compared-to-cars-and-vans.webp" />
+                        <h2>What are the towing capacities of trucks compared to cars and vans?</h2>
+                        <p>Pickup trucks have long been synonymous with power and capability, and when it comes to towing, they certainly don't disappoint. With their rugged construction and robust engines, these trucks offer a remarkable towing...</p>
+                        <a href="what-are-the-towing-capacities-of-trucks-compared-to-cars-and-vans.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/can-vans-be-used-as-personal-vehicles.webp" />
+                        <h2>Can vans be used as personal vehicles?</h2>
+                        <p>Vans are quickly becoming a popular choice for personal transportation, and for good reason. One of the key advantages of using vans is their versatility. With ample space and a roomy interior, vans offer the...</p>
+                        <a href="can-vans-be-used-as-personal-vehicles.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 left_align">
+                    <div class="blog-post">
+                        <img class="img_main" src="img/are-trucks-used-primarily-for-commercial-purposes.webp" />
+                        <h2>Are trucks used primarily for commercial purposes?</h2>
+                        <p>When it comes to the world of vehicles, trucks are a force to be reckoned with. These powerful giants of the road come in all shapes and sizes, each with its unique features and capabilities. From pickup trucks...</p>
+                        <a href="are-trucks-used-primarily-for-commercial-purposes.html" class="site-btn read-more">read more</a>
+                    </div>
+                </div>
+					
+				</div>
+		  </div>
+		  
+		 
+                
+            </div>
+        </div>
+    </div>
+    <!-- Fact End -->
+
+
+ <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>261 Hart Ridge Road, Saginaw, MI 48609</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>sam@car-truck-van.com</p>
+                    
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Links</h4>
+                   <a class="btn btn-link" href="terms.html">Terms</a>
+                    <a class="btn btn-link" href="privacy.html">Privacy Policy</a>
+                    <a class="btn btn-link" href="ada-compliance.html">ADA Compliance</a>
+                    <a class="btn btn-link" href="contact.html">Contact Car Truck Van</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Auto Types</h4>
+                    <a class="btn btn-link" href="car.html">Car</a>
+                    <a class="btn btn-link" href="truck">Trucks</a>
+                    <a class="btn btn-link" href="van">Vans</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    
                 </div>
             </div>
         </div>
-        <!-- Footer-->
-        <footer class="py-5 bg-footer text-center footer-text-color">
-        <div class="container mb-4 ql-editor" id="sitewide-footer" style="display:none">
-                
-        </div>
-            <div class="container mb-4">
-            <a href="https://car-truck-van.com" style="text-decoration: none;">
-            <p class="m-0 text-center ">
-            <span class="navbar-brand" ><img style="max-height:30px; height: 30px !important; display: none " src="" onerror="this.remove()"></span>
-                <span class="navbar-brand">Car Truck Van</span>
-            </p>
-            </a>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-12 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a  href="#">Car Truck Van - All Rights Reserved.
+
+                       
+                    </div>
+                    
+                </div>
             </div>
-           <ul class="list-inline mb-4" style="display: none">
-                <li class="list-inline-item" style="display: none">
-                    <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href=""><i class="icon-social-facebook"></i></a>
-                </li>
-                <li class="list-inline-item"  style="display: none">
-                    <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href=""><i class="icon-social-twitter"></i></a>
-                </li>
-                <li class="list-inline-item"  style="display: none">
-                    <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-instagram"></i></a>
-                </li>
-                <li class="list-inline-item"  style="display: none">
-                    <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-pinterest"></i></a>
-                </li>
-                <li class="list-inline-item"  style="display: none">
-                    <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-youtube"></i></a>
-                </li>
-            </ul>
-            <div class="container"><p class="m-0 text-center">Copyright &copy; <script>document.write(new Date().getFullYear())</script>  <a href="https://car-truck-van.com">Car Truck Van</a>. All rights reserved.</p></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
 </html>

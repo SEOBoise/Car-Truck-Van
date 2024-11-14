@@ -1,176 +1,196 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="author" content="Sam Brenner" />
-        <title>Car Anatomy and Components | Car Truck Van Resource</title>
-        <meta name="description"
-              content="Discover the intricacies of car anatomy and explore the fascinating world of its components. From the engine to the transmission, suspension to brakes, this blog post delves into the inner workings of automobiles. Unveiling the secrets behind their seamless functionality, we uncover the science and engineering that make cars drive smoothly. Join us on this educational journey as we unravel the mysteries of car anatomy and components."/>
-        <link rel="icon" href="" type="image/x-icon" />
+<html lang="en">
 
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Simple line icons-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+<head>
+    <meta charset="utf-8">
+    <title>Car Anatomy and Components | Car Truck Van Resource</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="home/css/quill.core.css" rel="stylesheet" />
-        <link href="article/css/styles.css" rel="stylesheet" />
-          
-        <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62dc22846895ac00191ea9d1&product=inline-share-buttons" async="async"></script>
+    <!-- Favicon --> 
+    <link href="img/favicon.ico" rel="icon">
 
-          <style>
-          h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1{
-          }
-          h3 {
-          font-size: 24px !important;
-          }
-          p{
-          margin-bottom: 28px !important;
-          }
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet"> 
 
-        .bg-header {
-          --bs-bg-opacity: 1;
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-          background-image: linear-gradient(rgba(0, 0, 0, 0.6),#000000) !important;
-    }
-        .bg-footer {
-          --bs-bg-opacity: 1;
-         background-image: linear-gradient(#000000,#000000) !important;
-        }
-        .header-text-color{
-            color: #ffffff !important;
-        }
-        .footer-text-color{
-            color: #ffffff !important;
-        }
-         .footer-text-color .navbar-brand{
-        color: #ffffff !important;
-        }
-</style>
-    </head>
-    <body>
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-header">
-            <div class="container">
-                 <a style="color: inherit; text-decoration: inherit;" href="https://car-truck-van.com">
-                <span class="navbar-brand" ><img style="max-height:30px; height: 30px !important; display: none " src="" onerror="this.remove()"></span>
-                <span class="navbar-brand header-text-color">Car Truck Van</span>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>261 Hart Ridge Road, Saginaw, MI 48609</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-envelope text-primary me-2"></small>
+                    <small>sam@car-truck-van.com</small>
                 </div>
             </div>
-        </nav>
-        <header class="py-2 bg-dark bg-opacity-25 border-bottom mb-4" style="display: none">
-            <div class="container ql-editor" id="sitewide-header" >
-                  
-            </div>
-        </header>
+            
+        </div>
+    </div>
+    <!-- Topbar End -->
 
-        <!-- Page content-->
-        <div class="container mt-5">
-            <div class="row">
-                <!-- Blog entries-->
-                <div class="col-lg-12">
-                    <div class="content">
-                     <article>
-    <!-- Post header-->
-    <header class="mb-4">
-        <!-- Post title-->
-        <h1 class="fw-bolder mb-1">Car Anatomy and Components</h1>
-        <!-- Post meta content-->
-        <div class="small text-muted">Sam Brenner</div>
-        <div class="text-muted fst-italic mb-2"></div>
-    </header>
-    <!-- Preview image figure-->
-    <figure class="mb-4"><img class="img-fluid rounded" src="47799.jpg?key=IgjnLU" alt="Image not found" /></figure>
-    <!-- Post content-->
-    <section class="mb-5">
-        <p class="fs-5 mb-4">
-            <h2>The Heart of the Machine: Exploring the Engine</h2><p>When it comes to automotive technology, the engine is truly the heart of the machine. It is the powerhouse that drives our vehicles forward, propelling us on our journeys. The engine is a complex system that converts fuel into mechanical energy, providing the necessary power to not only move the vehicle but also to operate its various components. It is the driving force that keeps everything in motion.<br/><br/>The engine is made up of several key components, each playing a crucial role in its overall functioning. At its core, the engine consists of cylinders, pistons, and a crankshaft. The pistons move up and down within the cylinders, converting the energy from the combustion of fuel into linear motion. This motion is then transferred to the crankshaft, which converts it into rotational motion, powering the wheels of the vehicle. Additionally, the engine has an intake system, which brings in air and fuel mixture for combustion, and an exhaust system, which expels the byproducts of combustion.<br/><br/>To ensure optimal performance, engines come in different configurations, such as four-cylinder, six-cylinder, and even eight-cylinder variants. These configurations determine the number of cylinders within the engine, thus affecting its power output and overall efficiency. Additionally, engines may be naturally aspirated or turbocharged, with the latter utilizing a turbocharger to increase the amount of air delivered to the cylinders for improved performance.<br/><br/>Overall, the engine is the true workhorse of the vehicle, providing the power necessary to keep us moving forward. Its intricate design and components work together seamlessly to ensure an efficient and reliable driving experience.</p><br/><h2>The Powerhouse Behind the Wheels: Unraveling the Transmission</h2><p>The transmission is an essential component of any vehicle, responsible for transferring power from the engine to the wheels. It is often referred to as the "powerhouse" behind the wheels, as it allows the car to achieve different speeds and maneuver through various driving conditions. The transmission works by engaging and disengaging gears, controlling the rotational speed of the wheels based on the engine's output.<br/><br/>There are two main types of transmissions commonly found in vehicles: manual and automatic. Manual transmissions require the driver to manually shift gears using a clutch pedal and gear shifter. This type of transmission offers direct control over gear selection, allowing for a more engaged driving experience. On the other hand, automatic transmissions utilize a hydraulic system to automatically shift gears based on the vehicle's speed and engine load. This type of transmission provides convenience and ease of use, particularly in heavy traffic or stop-and-go situations. Regardless of the type, the transmission plays a crucial role in delivering power to the wheels, enabling smooth acceleration and efficient performance on the road.</p><h2>Keeping Things Running Smoothly: Understanding the Suspension System</h2><p>When it comes to keeping a vehicle running smoothly, the suspension system plays a crucial role. The suspension system is responsible for providing a comfortable and controlled ride, as well as ensuring the stability and handling of the vehicle. It is made up of various components, including the springs, shock absorbers, and struts, all working together to absorb bumps and vibrations from the road.<br/><br/>One of the key components of the suspension system is the springs. These are typically made of steel and are engineered to support the weight of the vehicle while providing flexibility to absorb the impact of uneven road surfaces. The springs maintain the height and stability of the vehicle, preventing it from bottoming out or bouncing excessively. In addition to the springs, shock absorbers are also crucial to the suspension system. They are designed to dampen the oscillations caused by the springs, ensuring that the tires maintain contact with the road surface. This not only improves the vehicle's handling and stability but also enhances overall safety.</p><h2>Shedding Light on Safety: Demystifying the Lighting System</h2><p>The lighting system of a vehicle plays a vital role in ensuring safety on the road. It illuminates the path ahead, signals our intentions to other drivers, and helps us navigate through various driving conditions. The lighting system consists of headlights, taillights, brake lights, turn signals, and hazard lights. Each component serves a specific purpose and contributes to the overall safety of the vehicle.<br/><br/>Among the various lighting components, headlights are especially important as they provide visibility in low-light conditions, such as at night or in foggy weather. Modern headlights come in different variations, including halogen, xenon, and LED lights. Halogen lights are commonly used due to their affordability and longevity. Xenon and LED lights, on the other hand, offer brighter and more energy-efficient lighting options. Regardless of the type, it is crucial to ensure that headlights are properly aligned and functioning to provide optimum visibility while driving. Additionally, regular cleaning of the headlight lenses is necessary to prevent a buildup of dirt and oxidation, which can reduce their effectiveness.</p><h2>Navigating the Road: Getting to Know the Steering System</h2><p>To have a smooth and effortless driving experience, it is crucial to understand the steering system of your vehicle. The steering system is responsible for directing the wheels and ensuring proper control and maneuverability on the road. At the heart of this system lies the steering wheel, which is connected to a series of components that work together to turn the wheels in the desired direction.<br/><br/>One of the main components of the steering system is the steering column. This column connects the steering wheel to the steering gearbox or rack and pinion, depending on the type of steering system in your vehicle. Through a series of linkages and joints, the steering column transfers the rotational force from the steering wheel to the gearbox, allowing the driver to turn the wheels. Additionally, the steering system includes tie rods, which connect the wheels to the steering gearbox or rack and pinion, ensuring a synchronized turning motion. The interaction between these components allows for precise and responsive steering control, giving the driver the ability to navigate the road with ease.<br/><br/>Understanding the steering system is essential for maintaining overall vehicle safety. Regular inspection and maintenance of the steering system can help identify any potential issues before they lead to accidents or major malfunctions. Checking for any signs of wear and tear, such as loose steering or difficulty in turning the wheels, is essential. It is also important to keep an eye on the power steering fluid level, as low levels can affect the efficiency of the system. By being knowledgeable about the steering system, drivers can ensure a smoother and safer journey on the road.</p><h2>Stopping on a Dime: Delving into the Brake System</h2><p>The brake system is an integral component of any vehicle, ensuring safety and control on the road. Without a properly functioning brake system, a vehicle's ability to stop quickly and effectively would be greatly compromised. At the heart of the brake system are the brake pads, which are pressed against the brake rotors to create friction and slow down the vehicle. These pads undergo immense heat and pressure, making their durability and quality of utmost importance. In addition to the brake pads, the brake system also includes the brake calipers, which house the pads and apply the necessary force for braking. A faulty caliper can result in uneven wear of the brake pads, leading to reduced stopping power and potentially dangerous situations on the road.<br/><br/>But the brake system is not just limited to the brake pads and calipers. The brake system also includes several other components such as the brake lines, brake fluid, and the brake master cylinder. The brake lines are responsible for transferring the hydraulic pressure from the master cylinder to the brake calipers, allowing the pads to be pressed against the rotors. Any leaks or damage to the brake lines can result in a loss of brake pressure and responsiveness. Similarly, the brake fluid is vital for ensuring proper functioning of the brake system. It is responsible for transmitting the hydraulic force from the master cylinder to the brake calipers, while also helping to dissipate heat generated by braking. Regular maintenance and inspection of the brake fluid level and quality is crucial for optimal performance of the brake system. Finally, the brake master cylinder acts as the command center, converting the pressure applied to the brake pedal into hydraulic force that is transmitted to the brake calipers. A worn-out or malfunctioning master cylinder can result in reduced braking power and an increased stopping distance, compromising safety on the road.</p>
-        </p>
-        <hr /><h3>Related Links</h3><a class="text-primary" href="types-of-cars-sedans-suvs-trucks-etc.html">Types of Cars: Sedans, SUVs, Trucks, etc.</a><br /><a class="text-primary" href="history-and-evolution-of-cars.html">History and Evolution of Cars</a><br />
-    </section>
-</article>
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="https://car-truck-van.com/" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img src="img/logo.webp" class="logo" />
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="https://car-truck-van.com/" class="nav-item nav-link">Home</a>
+                <a href="about.html" class="nav-item nav-link">About Car Truck Van</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Auto Types</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="car.html" class="dropdown-item">Car</a>
+                        <a href="truck.html" class="dropdown-item">Trucks</a>
+                        <a href="van.html" class="dropdown-item">Vans</a>
                     </div>
-
                 </div>
-                <div class="clearfix"></div>
-                <br>
-                <br>
-                <div class="sharethis-inline-share-buttons"></div>
-                <!-- Side widgets-->
+				<a href="blog.html" class="nav-item nav-link active">Articles & Resources</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+           
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/carousel-bg-1.jpg);">
+        <div class="container-fluid page-header-inner py-5">
+            <div class="container text-center">
+                <h1 class="display-3 text-white mb-3 animated slideInDown">Blog</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center text-uppercase">
+                        <li class="breadcrumb-item"><a href="https://car-truck-van.com">Home</a></li>
+                        <li class="breadcrumb-item text-white active" aria-current="page">Car Anatomy and Components</li>
+                    </ol>
+                </nav>
             </div>
         </div>
+    </div>
+    <!-- Page Header End -->
 
-        <div class="py-5 bg-gray-200 text-muted">
-            <div class="container">
-                <div class="row">
-                      <div class="col-lg-8 mb-5 mb-lg-0">
-                       <div style=" display: inherit" class="fw-bold text-uppercase text-dark mb-3">
-                        <a href="terms.html">Terms of Use</a>
-                       </div>
 
-                        <div style=" display: inherit" class="fw-bold text-uppercase text-dark mb-3">
-                        <a href="privacy.html">Privacy Policy</a>
-                        </div>
 
-                    </div>
-                    <div class="col-lg-4">
-                       <h6 style=" display: inherit" class="text-uppercase text-dark mb-3">
-                        <a href="sitemap.html">Sitemap</a>
-                        </h6>
-
-                       <h6 style=" display: inherit" class="text-uppercase text-dark mb-3">
-                        <a href="contact.html">Contact Us!</a>
-                        </h6>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer-->
-        <footer class="py-5 bg-footer text-center footer-text-color">
-        <div class="container mb-4 ql-editor" id="sitewide-footer" style="display:none">
+    <!-- Fact Start -->
+    <div class="container-fluid  blog">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-16 col-lg-12 text-center wow fadeIn" data-wow-delay="0.1s">
+				 <h1 class="about_h2" style="text-align:left;">Car Anatomy and Components</h1>
+				 
+				<img  src="img/car-anatomy-and-components.webp" style="object-fit: cover; margin:13px 0 30px 0;" alt="">
+				 
+<h2>The Heart of the Machine: Exploring the Engine</h2><p>When it comes to automotive technology, the engine is truly the heart of the machine. It is the powerhouse that drives our vehicles forward, propelling us on our journeys. The engine is a complex system that converts fuel into mechanical energy, providing the necessary power to not only move the vehicle but also to operate its various components. It is the driving force that keeps everything in motion.<br><br>The engine is made up of several key components, each playing a crucial role in its overall functioning. At its core, the engine consists of cylinders, pistons, and a crankshaft. The pistons move up and down within the cylinders, converting the energy from the combustion of fuel into linear motion. This motion is then transferred to the crankshaft, which converts it into rotational motion, powering the wheels of the vehicle. Additionally, the engine has an intake system, which brings in air and fuel mixture for combustion, and an exhaust system, which expels the byproducts of combustion.<br><br>To ensure optimal performance, engines come in different configurations, such as four-cylinder, six-cylinder, and even eight-cylinder variants. These configurations determine the number of cylinders within the engine, thus affecting its power output and overall efficiency. Additionally, engines may be naturally aspirated or turbocharged, with the latter utilizing a turbocharger to increase the amount of air delivered to the cylinders for improved performance.<br><br>Overall, the engine is the true workhorse of the vehicle, providing the power necessary to keep us moving forward. Its intricate design and components work together seamlessly to ensure an efficient and reliable driving experience.</p><br><h2>The Powerhouse Behind the Wheels: Unraveling the Transmission</h2><p>The transmission is an essential component of any vehicle, responsible for transferring power from the engine to the wheels. It is often referred to as the "powerhouse" behind the wheels, as it allows the car to achieve different speeds and maneuver through various driving conditions. The transmission works by engaging and disengaging gears, controlling the rotational speed of the wheels based on the engine's output.<br><br>There are two main types of transmissions commonly found in vehicles: manual and automatic. Manual transmissions require the driver to manually shift gears using a clutch pedal and gear shifter. This type of transmission offers direct control over gear selection, allowing for a more engaged driving experience. On the other hand, automatic transmissions utilize a hydraulic system to automatically shift gears based on the vehicle's speed and engine load. This type of transmission provides convenience and ease of use, particularly in heavy traffic or stop-and-go situations. Regardless of the type, the transmission plays a crucial role in delivering power to the wheels, enabling smooth acceleration and efficient performance on the road.</p><h2>Keeping Things Running Smoothly: Understanding the Suspension System</h2><p>When it comes to keeping a vehicle running smoothly, the suspension system plays a crucial role. The suspension system is responsible for providing a comfortable and controlled ride, as well as ensuring the stability and handling of the vehicle. It is made up of various components, including the springs, shock absorbers, and struts, all working together to absorb bumps and vibrations from the road.<br><br>One of the key components of the suspension system is the springs. These are typically made of steel and are engineered to support the weight of the vehicle while providing flexibility to absorb the impact of uneven road surfaces. The springs maintain the height and stability of the vehicle, preventing it from bottoming out or bouncing excessively. In addition to the springs, shock absorbers are also crucial to the suspension system. They are designed to dampen the oscillations caused by the springs, ensuring that the tires maintain contact with the road surface. This not only improves the vehicle's handling and stability but also enhances overall safety.</p><h2>Shedding Light on Safety: Demystifying the Lighting System</h2><p>The lighting system of a vehicle plays a vital role in ensuring safety on the road. It illuminates the path ahead, signals our intentions to other drivers, and helps us navigate through various driving conditions. The lighting system consists of headlights, taillights, brake lights, turn signals, and hazard lights. Each component serves a specific purpose and contributes to the overall safety of the vehicle.<br><br>Among the various lighting components, headlights are especially important as they provide visibility in low-light conditions, such as at night or in foggy weather. Modern headlights come in different variations, including halogen, xenon, and LED lights. Halogen lights are commonly used due to their affordability and longevity. Xenon and LED lights, on the other hand, offer brighter and more energy-efficient lighting options. Regardless of the type, it is crucial to ensure that headlights are properly aligned and functioning to provide optimum visibility while driving. Additionally, regular cleaning of the headlight lenses is necessary to prevent a buildup of dirt and oxidation, which can reduce their effectiveness.</p><h2>Navigating the Road: Getting to Know the Steering System</h2><p>To have a smooth and effortless driving experience, it is crucial to understand the steering system of your vehicle. The steering system is responsible for directing the wheels and ensuring proper control and maneuverability on the road. At the heart of this system lies the steering wheel, which is connected to a series of components that work together to turn the wheels in the desired direction.<br><br>One of the main components of the steering system is the steering column. This column connects the steering wheel to the steering gearbox or rack and pinion, depending on the type of steering system in your vehicle. Through a series of linkages and joints, the steering column transfers the rotational force from the steering wheel to the gearbox, allowing the driver to turn the wheels. Additionally, the steering system includes tie rods, which connect the wheels to the steering gearbox or rack and pinion, ensuring a synchronized turning motion. The interaction between these components allows for precise and responsive steering control, giving the driver the ability to navigate the road with ease.<br><br>Understanding the steering system is essential for maintaining overall vehicle safety. Regular inspection and maintenance of the steering system can help identify any potential issues before they lead to accidents or major malfunctions. Checking for any signs of wear and tear, such as loose steering or difficulty in turning the wheels, is essential. It is also important to keep an eye on the power steering fluid level, as low levels can affect the efficiency of the system. By being knowledgeable about the steering system, drivers can ensure a smoother and safer journey on the road.</p><h2>Stopping on a Dime: Delving into the Brake System</h2><p>The brake system is an integral component of any vehicle, ensuring safety and control on the road. Without a properly functioning brake system, a vehicle's ability to stop quickly and effectively would be greatly compromised. At the heart of the brake system are the brake pads, which are pressed against the brake rotors to create friction and slow down the vehicle. These pads undergo immense heat and pressure, making their durability and quality of utmost importance. In addition to the brake pads, the brake system also includes the brake calipers, which house the pads and apply the necessary force for braking. A faulty caliper can result in uneven wear of the brake pads, leading to reduced stopping power and potentially dangerous situations on the road.<br><br>But the brake system is not just limited to the brake pads and calipers. The brake system also includes several other components such as the brake lines, brake fluid, and the brake master cylinder. The brake lines are responsible for transferring the hydraulic pressure from the master cylinder to the brake calipers, allowing the pads to be pressed against the rotors. Any leaks or damage to the brake lines can result in a loss of brake pressure and responsiveness. Similarly, the brake fluid is vital for ensuring proper functioning of the brake system. It is responsible for transmitting the hydraulic force from the master cylinder to the brake calipers, while also helping to dissipate heat generated by braking. Regular maintenance and inspection of the brake fluid level and quality is crucial for optimal performance of the brake system. Finally, the brake master cylinder acts as the command center, converting the pressure applied to the brake pedal into hydraulic force that is transmitted to the brake calipers. A worn-out or malfunctioning master cylinder can result in reduced braking power and an increased stopping distance, compromising safety on the road.</p>
+        <p></p>
+        <hr><h3>Related Links</h3><a class="text-primary" href="types-of-cars-sedans-suvs-trucks-etc.html">Types of Cars: Sedans, SUVs, Trucks, etc.</a><br><a class="text-primary" href="history-and-evolution-of-cars.html">History and Evolution of Cars</a>
+		  </div>
+		  
+		 
                 
-        </div>
-            <div class="container mb-4">
-            <a href="https://car-truck-van.com" style="text-decoration: none;">
-            <p class="m-0 text-center ">
-            <span class="navbar-brand" ><img style="max-height:30px; height: 30px !important; display: none " src="" onerror="this.remove()"></span>
-                <span class="navbar-brand">Car Truck Van</span>
-            </p>
-            </a>
             </div>
-           <ul class="list-inline mb-4" style="display: none">
-                <li class="list-inline-item" style="display: none">
-                    <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href=""><i class="icon-social-facebook"></i></a>
-                </li>
-                <li class="list-inline-item"  style="display: none">
-                    <a class="social-link rounded-circle footer-text-color mr-3" target="_blank"  href=""><i class="icon-social-twitter"></i></a>
-                </li>
-                <li class="list-inline-item"  style="display: none">
-                    <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-instagram"></i></a>
-                </li>
-                <li class="list-inline-item"  style="display: none">
-                    <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-pinterest"></i></a>
-                </li>
-                <li class="list-inline-item"  style="display: none">
-                    <a class="social-link rounded-circle footer-text-color" target="_blank"  href=""><i class="icon-social-youtube"></i></a>
-                </li>
-            </ul>
-            <div class="container"><p class="m-0 text-center">Copyright &copy; <script>document.write(new Date().getFullYear())</script>  <a href="https://car-truck-van.com">Car Truck Van</a>. All rights reserved.</p></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+        </div>
+    </div>
+    <!-- Fact End -->
+
+
+   <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>261 Hart Ridge Road, Saginaw, MI 48609</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>sam@car-truck-van.com</p>
+                    
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Links</h4>
+                   <a class="btn btn-link" href="terms.html">Terms</a>
+                    <a class="btn btn-link" href="privacy.html">Privacy Policy</a>
+                    <a class="btn btn-link" href="ada-compliance.html">ADA Compliance</a>
+                    <a class="btn btn-link" href="contact.html">Contact Car Truck Van</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Auto Types</h4>
+                    <a class="btn btn-link" href="car.html">Car</a>
+                    <a class="btn btn-link" href="truck">Trucks</a>
+                    <a class="btn btn-link" href="van">Vans</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-12 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a  href="#">Car Truck Van - All Rights Reserved.
+
+                       
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
 </html>
